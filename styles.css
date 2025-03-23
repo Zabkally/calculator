@@ -61,8 +61,7 @@ button:active {
 }
 
 @media screen and (max-width: 768px) {
-  #calculator {
-    max-width: 300px;
-    overflow: hidden;
+  #keys {
+    grid-template-columns: repeat(4, 100px);
   }
 }
