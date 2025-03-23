@@ -62,6 +62,6 @@ button:active {
 
 @media screen and (max-width: 768px) {
   #keys {
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 90px);
   }
 }
