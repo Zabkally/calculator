@@ -30,7 +30,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  padding: 25px;
+  padding: 0px;
 }
 button {
   width: 100px;
@@ -62,8 +62,6 @@ button:active {
 
 @media screen and (max-width: 768px) {
   #keys {
-    grid-template-columns: repeat(4, 90px);
-    padding: 0;
     gap: 5px;
   }
 }
